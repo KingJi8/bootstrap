@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KINGJI Portfolio</title>
+
+    <!-- include libraries(jQuery, popper) -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- include libraries(bootstrap4) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- custom -->
+    <link href="https://fonts.googleapis.com/css?family=Heebo:300,500|Noto+Sans+KR:300,400,700&display=swap&subset=korean" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+<body>
+    <header class="header fixed-top">
+      <div class="container-xl">
+        <nav class="hNav navbar navbar-expand-sm navbar-sm-light row py-sm-3">
+          <span class="col-12 col-sm-3 navbar-brand text-center text-sm-left ">
+            <a href="index.html" class="hlogo navbar-brand py-2 mr-sm-0 my-sm-0 h3" data-toggle="tooltip" data-placement="bottom" title="홈">Jiwon Wang</a>
+          </span>
+          <div class="hNavbar col-12 col-sm-9 float-sm-right" id="navbarMenuToggle">
+            <ul class="navbar-nav flex-row justify-content-between flex-sm-row justify-content-sm-end">
+              <li class="nav-item position-relative">
+                <a class="hgnbLink h5 nav-link" target="_blank" href="#" data-toggle="tooltip" data-placement="bottom" title="포트폴리오">Portfolio
+                  <hr class="gnb-on">
+                  <hr class="gnb-off">
+                </a>
+              </li>
+              <li class="nav-item pl-sm-4 position-relative">
+                <a class="hgnbLink h5 nav-link" target="_blank" href="https://kingji8.github.io/portfolio/about.html" data-toggle="tooltip" data-placement="bottom" title="자기소개">KING Ji
+                  <hr class="gnb-on">
+                  <hr class="gnb-off">
+                </a>
+              </li>
+              <li class="nav-item pl-sm-4 position-relative">
+                <a class="hgnbLink h5 nav-link" target="_blank" href="https://kingji8.github.io/portfolio/resume.pdf" data-toggle="tooltip" data-placement="bottom" title="이력서 다운로드">Resume
+                  <hr class="gnb-on">
+                  <hr class="gnb-off">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="topSec">
+        <div class="tsContainer position-relative container-xl h-100">
+          <div class="px-1 px-md-5 position-relative h-100">
+            <div class="tsCon px-2 px-md-4 position-relative d-flex justify-content-start align-items-center">
+              <div class="tsTxtbox position-relative">
+                <h3 class="tsTit h1 mb-4">Hello. I'm <span class="tsTit txtGreen">Jiwon Wang</span> ―</h3>
+                <p class="tsTxt mb-1">
+                  UX/UI Designer, with a background in performance planning,
+                </p>
+                <p class="tsTxt mb-1">
+                  keen on hard seeking for new opportunities.
+                </p>
+              </div>
+              <div class="tsImgbox position-absolute d-inline-block">
+                <div class="profileImgbox position-relative">
+                  <img class="w-100" src="https://kingji8.github.io/portfolio/img/topimg.jpg" alt="프로필 사진">
+                </div>
+                <div class="profileRect position-absolute"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolioSec" id="portfolio">
+        <div class="psContainer container-xl">
+          <div class="px-3 px-md-5">
+            <p class="mainTit">Portfolio</p>
+            <div class="psContents">
+              <ul class="psConList">
+                <li class="psCon clearfix">
+                  <div class="row position-relative">
+                    <div class="psConImg col-12 mx-auto col-md-6 position-relative mb-5">
+                      <div class="psImgRect">
+                        <span class="psImgDate">2019.11 ― Responsive / 20days</span>
+                      </div>
+                      <a href="#" class="psImgLink d-inline-block position-absolute d-flex justify-content-center align-items-center">
+                        <div class="psImgCir position-relative d-flex justify-content-center align-items-center">
+                          <img class="psImgImg" src="https://kingji8.github.io/portfolio/img/p2-icon300.png" alt="포트폴리오 사이트 로고 이미지">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="psConTxt col-12 col-md-6 d-flex align-contents-center">
+                      <div class="psConTxtBox pl-2 pl-md-5">
+                        <h2 class="psTxtTit pb-4 pb-md-3">Portfolio ─<br>KING JI #01</h2>
+                        <p class="psTxtDesc py-2 py-md-4 mb-0">
+                          “왕지원=KING JI”의 첫 번째 Portfolio Site<br>
+                          White&Gray과 함께 Point Color를 유채색으로 두어 단순하면서 강조점을 돋보이게 하였다. 포트폴리오 개별 페이지에서는 포인트 색을 해당 사이트의 포인트 칼라로 변경하여 사용.
+                        </p>
+                        <p class="psTxtDesc pb-4 pb-md-4">
+                          Identity Color = <span class="txtGreen">초록</span> = Point Color<br>
+                          편안한 성격. 우직한 모습이 나무, 숲과 같다는 주변 사람들의 의견 반영.<br>
+                          깔끔한 느낌을 주면서도 마냥 단조로운 느낌을 벗어난 레이아웃.
+                        </p>
+                        <p class="psTxtLinkBox position-relative">
+                          <a href="#" class="psTxtLink txtGreen d-inline-block position-relative" data-toggle="tooltip" data-placement="bottom" title="포트폴리오 상세 설명">Check for it</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="psCon clearfix">
+                  <div class="row flex-row-reverse position-relative">
+                    <div class="psConImg col-12 mx-auto col-md-6 position-relative mb-5">
+                      <div class="psImgRect">
+                        <span class="psImgDate">2019.10 ― Responsive / 15days</span>
+                      </div>
+                      <a href="#" class="psImgLink d-inline-block position-absolute d-flex justify-content-center align-items-center">
+                        <div class="psImgCir position-relative d-flex justify-content-center align-items-center">
+                          <img class="psImgImg" src="https://kingji8.github.io/portfolio/img/p1-icon1000.png" alt="북카롱 사이트 로고 이미지">
+                        </div>
+                      </a>
+                    </div>
+                    <div class="psConTxt col-12 col-md-6 d-flex align-contents-center">
+                      <div class="psConTxtBox pl-2 pl-md-5">
+                        <h2 class="psTxtTit pb-4 pb-md-3">
+                          Bookaron ―
+                          <br>Audio Book Site
+                        </h2>
+                        <p class="psTxtDesc py-2 py-md-4 mb-0">
+                          “책을 읽는다 = 지식을 먹는다”
+                          <br>바쁜 현대 생활 가운데 여유와 지식을 동시에 충족할 수 있도록 도와주는 오디오북 사이트를 구상.
+                        </p>
+                        <p class="psTxtDesc pb-4 pb-md-4">
+                          UX를 반영하여 원하는 책의 정보를 한 눈에 볼 수 있는 레이아웃.
+                          <br>쉬운 사이트 내 이동과 원하는 에피소드만 선택할 수 있는 UI.
+                        </p>
+                        <p class="psTxtLinkBox position-relative">
+                          <a href="#" class="psTxtLink txtGreen d-inline-block position-relative" data-toggle="tooltip" data-placement="bottom" title="북카롱 상세 설명">Check for it</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="studySec" id="study">
+        <div class="stsContainer container-xl">
+          <div class="px-3 px-md-5">
+            <p class="mainTit">Study UX/UI</p>
+            <div class="stsContents">
+              <ul class="stsConList row">
+                <li class="col-6 col-sm-3 mb-5 mb-sm-0 pr-2 text-center">
+                  <div class="stsImgbox w-100">
+                    <img src="https://kingji8.github.io/portfolio/img/study004.png" alt="이미지" class="stsImg">
+                  </div>
+                  <p class="stsTit py-2 py-sm-3 mb-0">
+                    바닷가 펜션 사이트<br>
+                    (1페이지)
+                  </p>
+                  <span class="stsLinkBtn d-inline-block w-100">
+                    <a href="#" class="stsLink d-inline-block w-100 py-2">홈페이지 바로가기</a>
+                  </span>
+                </li>
+                <li class="col-6 col-sm-3 mb-5 mb-sm-0 pr-2 text-center">
+                  <div class="stsImgbox w-100">
+                    <img src="https://kingji8.github.io/portfolio/img/study002.png" alt="이미지" class="stsImg">
+                  </div>
+                  <p class="stsTit py-2 py-sm-3 mb-0">
+                    해양 스포츠 사이트
+                    <br>메인 페이지
+                  </p>
+                  <span class="stsLinkBtn d-inline-block w-100">
+                    <a href="#" class="stsLink d-inline-block w-100 py-2">홈페이지 바로가기</a>
+                  </span>
+                </li>
+                <li class="col-6 col-sm-3 mb-5 mb-sm-0 pr-2 text-center">
+                  <div class="stsImgbox w-100">
+                    <img src="https://kingji8.github.io/portfolio/img/study003.png" alt="이미지" class="stsImg">
+                  </div>
+                  <p class="stsTit py-2 py-sm-3 mb-0">
+                    SangA SIF 참여
+                    <br>판매 굿즈(1페이지)
+                  </p>
+                  <span class="stsLinkBtn d-inline-block w-100">
+                    <a href="#" class="stsLink d-inline-block w-100 py-2">홈페이지 바로가기</a>
+                  </span>
+                </li>
+                <li class="col-6 col-sm-3 mb-5 mb-sm-0 pr-2 text-center">
+                  <div class="stsImgbox w-100">
+                    <img src="https://kingji8.github.io/portfolio/img/study001.jpg" alt="이미지" class="stsImg">
+                  </div>
+                  <p class="stsTit py-2 py-sm-3 mb-0">
+                    SangA 소개 페이지
+                    <br>(1페이지)
+                  </p>
+                  <span class="stsLinkBtn d-inline-block w-100">
+                    <a href="#" class="stsLink d-inline-block w-100 py-2">홈페이지 바로가기</a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="abilitySec" id="ability">
+        <div class="abContainer container-xl">
+          <div class="px-3 px-md-5">
+            <div class="mainTit">Ability</div>
+            <div class="abContents w-100 px-2 px-md-5 clearfix">
+              <ul class="abLists mx-auto mb-5">
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">HTML5</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">70</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">CSS3</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">75</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">JS/jQuery</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">60</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">BootStrap</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">60</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">Photoshop</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">80</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">Illustrator</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">75</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">Powerpoint</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">85</span>
+                  </div>
+                </li>
+                <li class="abAbility row pb-4">
+                  <div class="abTit justify-content-end col-4 col-md-3 px-0 pr-2">
+                    <p class="abName text-right mb-0">Office</p>
+                  </div>
+                  <div class="abProgress col-8 col-md-9 position-relative">
+                    <div class="abProBar d-inline-block">
+                      <span class="abProBarBack d-block"></span>
+                    </div>
+                    <span class="abProVal pl-2">80</span>
+                  </div>
+                </li>
+              </ul>
+              <p class="abBtnBox">
+                <a href="#" class="aboutBtn d-inline-block txtGreen" data-toggle="tooltip" data-placement="bottom" title="자기소개">About More</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="fContainer container-xl px-4">
+        <div class="row">
+          <section class="contactSec col-12 col-sm-7 mb-4">
+            <div class="mainTit mb-4">Contact</div>
+            <ul class="conLists pl-4">
+              <li class="conAddress">
+                <a href="mailto:jiwon.c.king@gmail.com" class="conAddLink">jiwon.c.king@gmail.com</a>
+              </li>
+              <li class="conAddress">
+                <a href="mailto:jcoking@naver.com" class="conAddLink">jcoking@naver.com</a>
+              </li>
+            </ul>
+          </section>
+          <section class="linkSec col-12 col-sm-5 mb-4">
+            <div class="mainTit mb-4">Links</div>
+            <ul class="linkLists pl-4">
+              <li class="linkbox mb-3">
+                <a href="#" class="link">Linked In</a>
+              </li>
+              <li class="linkbox mb-3">
+                <a href="#" class="link">Resume</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="row">
+          <p class="copyright col-12 pl-4">
+            &copy; Copyright 2020 KING JI All Rights Reserved<br>
+            Designed & Coded by KING JI for her own portfolio
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
