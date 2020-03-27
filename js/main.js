@@ -70,7 +70,6 @@ $(function(){
         var psImgCirW = $psImgCir.width();
 
         $psImgCir.height(psImgCirW);
-        $psImgCir.width(psImgCirW)
     }
     psImgCirHeight();
 
@@ -87,9 +86,9 @@ $(function(){
     });
 
     //study 이미지 정사각형
-    var $stImg = $('.stsImgbox');
-    var stImgW = $stImg.width();
     function stImgH(){
+        var $stImg = $('.stsImgbox');
+        var stImgW = $stImg.width();
         $stImg.height(stImgW);
     }
     stImgH();
@@ -97,7 +96,6 @@ $(function(){
     /*ability 막대 액션*/
     var pVal = [];
     var pValTxt = [];
-
     $('.abAbility').each(function(i){
         pVal[i] = $(".abAbility").eq(i);
         pValTxt[i] = pVal[i].find(".abProVal").text();
@@ -150,6 +148,7 @@ $(function(){
     })
 
     $(window).resize(function(){
+        winW = $(window).width();
         winH = $(window).height();
         topSecH();
         tsProfileRect();

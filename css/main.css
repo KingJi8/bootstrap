@@ -1,4 +1,8 @@
 @charset "utf-8";
+html,body {
+    background-color: #ffffff;
+    min-width:375px;
+}
 * {
     margin:0;
     padding:0;
@@ -234,6 +238,7 @@ a:active {
     line-height:2;
 }
 .psTxtLinkBox {
+    display:inline-block;
     left:0px;
 }
 .psTxtLink {
