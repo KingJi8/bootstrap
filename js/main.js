@@ -144,7 +144,7 @@ $(function(){
     var abAct = null;
     $('.abBtnBox').on('mouseenter',function(){
         amBtnAct();
-        abAct = setInterval(amBtnAct(),1000);
+        abAct = setInterval(amBtnAct,1000);
     }).on('mouseleave',function(){
         clearInterval(abAct);
     })
