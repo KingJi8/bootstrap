@@ -302,9 +302,8 @@ a:active {
 }
 .abBtnBox {
     display:inline-block;
-
-    position: absolute;
-    right:100px;
+    position: relative;
+    margin-right:10px;
 }
 .aboutBtn {
     font-size:16px;

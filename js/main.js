@@ -139,7 +139,7 @@ $(function(){
 
     //ability more 버튼 작동
     function amBtnAct(){
-        $('.abBtnBox').animate({right:'80px'},500).animate({right:'100px'},500);
+        $('.abBtnBox').animate({'margin-right':'-10px'},500).animate({'margin-right':'10px'},500);
     };
     var abAct = null;
     $('.abBtnBox').on('mouseenter',function(){
